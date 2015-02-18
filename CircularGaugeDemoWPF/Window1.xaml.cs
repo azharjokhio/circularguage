@@ -58,7 +58,7 @@ namespace CircularGaugeDemoWPF
     /// Helper class to simulate a game
     /// </summary>
     public class Game : INotifyPropertyChanged
-    {
+    { 
         private double score;
 
         public double Score
