@@ -1,0 +1,40 @@
+﻿<Window x:Class="CircularGaugeDemoWPF.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:gauge="clr-namespace:CircularGauge;assembly=CircularGauge"
+    Title="Circular Gauge WPF Demo" Height="320" Width="344" Background="Black" >
+
+    <Canvas>
+
+
+        <!--Black Gauge -->
+        <gauge:CircularGaugeControl x:Name="myGauge1" 
+                                        Radius="150" 
+                                        ScaleRadius="110" 
+                                        ScaleStartAngle="180" 
+                                        ScaleSweepAngle="180"
+                                        PointerLength="60" 
+                                        PointerCapRadius="0" 
+                                        MinValue="0" 
+                                        MaxValue="100" 
+                                        MajorDivisionsCount="10" 
+                                        MinorDivisionsCount="5" 
+                                        CurrentValue="{Binding Score}"
+                                        RangeIndicatorThickness="10"
+                                        RangeIndicatorRadius="50"
+                                        RangeIndicatorLightRadius="0"
+                                        RangeIndicatorLightOffset="80"
+                                        ScaleLabelRadius="90"
+                                        ScaleLabelSize="40,20"
+                                        ScaleLabelFontSize="10"
+                                        ScaleLabelForeground="Transparent"
+                                        MajorTickSize="10,3"
+                                        MinorTickSize="3,1"
+                                        MajorTickColor="Transparent"
+                                        MinorTickColor="Transparent"
+                                        GaugeBackgroundColor="Transparent"
+                                        PointerThickness ="16" Height="268" Width="307" Canvas.Left="19" Canvas.Top="12"
+                                        />
+
+    </Canvas>
+</Window>
