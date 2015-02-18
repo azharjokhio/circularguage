@@ -119,17 +119,20 @@ DAMAGE.-->
                         <!--Pointer Cap-->
                         <Ellipse x:Name="PointerCap" Height="{TemplateBinding PointerCapRadius}" Width="{TemplateBinding PointerCapRadius}" StrokeThickness="4" Opacity="1" >
                             <Ellipse.Stroke>
-                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <!--<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                     <GradientStop Color="#FF000000" Offset="0.675"/>
                                     <GradientStop Color="#FFC1B5B5" Offset="0.031"/>
-                                </LinearGradientBrush>
+                                </LinearGradientBrush>-->
+                                <SolidColorBrush Color="#9AAD68" />
                             </Ellipse.Stroke>
                             <Ellipse.Fill>
-                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <!--<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                     <GradientStop Color="#FF152029" Offset="0.846"/>
                                     <GradientStop Color="#FF140204" Offset="0.342"/>
-                                </LinearGradientBrush>
+                                </LinearGradientBrush>-->
+                                <SolidColorBrush Color="#9AAD68" />
                             </Ellipse.Fill>
+                            
                         </Ellipse>
 
                         <!--Range indicator light-->
